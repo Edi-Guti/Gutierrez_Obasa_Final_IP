@@ -17,13 +17,12 @@
 - Wireframe
 - Design
 
-##Edi
+## Edi
 
 ### Photoshop
 
 - Design
 - Wireframe
 - Invision
-- Mock-up
-- Mechandise
-
+- Mock-up and Mechandise
+- Updating Readme
