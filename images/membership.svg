@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Smile_1_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#EDD87E;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:#469FCC;}
+	.st3{fill:#E39560;}
+	.st4{opacity:0.1;fill:#010101;}
+</style>
+<circle id="Face_x5F_Color" class="st0" cx="16" cy="16" r="16"/>
+<path id="Sclera" class="st1" d="M21,14c-1.66,0-3-1.34-3-3s1.34-3,3-3c1.66,0,3,1.34,3,3S22.66,14,21,14z M14,11c0-1.66-1.34-3-3-3
+	c-1.66,0-3,1.34-3,3s1.34,3,3,3C12.66,14,14,12.66,14,11z"/>
+<path id="Eye_x5F_Color" class="st2" d="M21,13c-1.1,0-2-0.9-2-2s0.9-2,2-2c1.1,0,2,0.9,2,2S22.1,13,21,13z M13,11c0-1.1-0.9-2-2-2
+	c-1.1,0-2,0.9-2,2s0.9,2,2,2C12.1,13,13,12.1,13,11z"/>
+<path id="Smile" class="st3" d="M24.5,19.16c1.15,0.56,0,2.09,0,2.09C22.74,24.1,19.59,26,16,26c-3.59,0-6.74-1.9-8.5-4.75
+	c0,0-0.97-1.25,0-1.97c0.97-0.72,1.8,1.07,1.8,1.07C10.72,22.54,13.19,24,16,24c2.81,0,5.28-1.46,6.7-3.65
+	C22.7,20.35,23.35,18.59,24.5,19.16z"/>
+<path id="Shadow" class="st4" d="M16,30c-6.04,0-11.37-2.98-14.63-7.54C3.85,28.07,9.46,32,16,32c6.54,0,12.15-3.93,14.63-9.54
+	C27.37,27.02,22.04,30,16,30z"/>
+</svg>
