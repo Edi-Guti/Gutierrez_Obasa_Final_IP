@@ -1,3 +1,5 @@
+[traa_logo](https://user-images.githubusercontent.com/50373581/62825505-d6766b80-bb7a-11e9-883e-0ddfb3a4119b.png)
+
 # Thames River Anglers Association
 
 To make a full 6 page responsive website for mobile, tablet and desktop. 
