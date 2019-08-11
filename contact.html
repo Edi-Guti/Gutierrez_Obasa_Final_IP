@@ -7,14 +7,15 @@
 
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/contact.css">
   <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto&display=swap" rel="stylesheet">
 
-  <title>Document</title>
+  <title>Contact | Thames River Anglers Association</title>
 </head>
 <body>
   <main class="siteContainer">
 
-    <div class="hidden">beginning of header</div>
+    <h1 class="hidden">beginning of header</h1>
     <header id="mainHeader">
       <!--Beginning of Logo-->
       <div id="logo">
@@ -22,19 +23,36 @@
       </div>
 
       <nav id="mainNav"><!--beginning of mainNav-->
-        <ul>
+        <button id="button"></button>
+        <h2 class="hidden">header nav</h2>
+
+      <div id="burgerCon">
+        <ul id="burgerMenu">
           <li><a href="index.html">HOME</a></li>
-          <li><a href="">ABOUT</a></li>
+          <li><a href="about.html">ABOUT</a></li>
           <li><a href="contact.html">CONTACT</a></li>
           <li><a href="project.html">PROJECTS</a></li>
-          <li><a href="">NEWSLETTER</a></li>
-          <li><a href="">RESOURCES</a></li>
+          <li><a href="newsletter.html">NEWSLETTER</a></li>
+          <li><a href="resources.html">RESOURCES</a></li>
+        </ul>
+      </div>
+
+        <nav id="nav">
+          <ul id="navMenu">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+          <li><a href="project.html">PROJECTS</a></li>
+          <li><a href="newsletter.html">NEWSLETTER</a></li>
+          <li><a href="resources.html">RESOURCES</a></li>
           </ul>
+        </nav>
+
       </nav><!--end mainNav-->
 
     </header>
 
-    <div class="hidden">hero-header</div>
+    <h1 class="hidden">hero-header</h1>
     <div id="hero2">
 
     <div class="heroText2">
@@ -43,10 +61,10 @@
 
     </div>
 
-    <div class="hidden">contact us information</div>
+    <h1 class="hidden">contact us information</h1>
     <div id="contactinfo">
       <h3>Contact Us.</h3>
-      <div id="border1"></div>
+      <div class="border1"></div>
 
       <p>
         There's a bunch of ways to get in touch with the TRAA.<br>
@@ -56,53 +74,57 @@ the TRAA would like to hear from you.
       </p>
     </div>
 
-    <div class="hidden">info icons</div>
+    <h2 class="hidden">info icons</h2>
     <div id="infoText">
-      <section id="icon">
+      <div class="row">
+      <section class="icon">
         <img src="images/facebook-logo.svg" alt="facebook" width="100px" height="100px">
         <h3>FACEBOOK</h3>
-        <div id="border2"></div>
+        <div class="border2"></div>
         <p>Our Facebook page</p>
       </section>
 
-      <section id="icon">
+      <section class="icon">
         <img src="images/mail-dot-ru.svg" alt="e mail" width="100px" height="100px">
         <h3>E-MAIL</h3>
-        <div id="border2"></div>
+        <div class="border2"></div>
         <p><a href="">traa@anglers.org</a></p>
       </section>
+      </div>
 
-      <section id="icon1">
+      <div class="row">
+      <section class="icon1">
         <img src="images/close-envelope.svg" alt="mailing address" width="100px" height="100px">
         <h3>MAIL</h3>
-        <div id="border2"></div>
+        <div class="border2"></div>
         <p>Thames River Anglers Association
         <br>2202 Coronation Drive
         <br>London, Ontario
         <br>N6G 0B9</p>
       </section>
 
-      <section id="icon">
+      <section class="icon">
         <img src="images/home.svg" alt="meeting address" width="100px" height="100px">
         <h3>ADDRESS</h3>
-        <div id="border2"></div>
+        <div class="border2"></div>
         <p>790 Southdale Road East,
         <br>London, Ontario.</p>
       </section>
+      </div>
     </div>
 
     <div id="meeting">
     <h3>TRAA General Meeting</h3>
-    <div id="border1"></div>
+    <div class="border1"></div>
 <p>The TRAA meets every second Wednesday of each month. We always try to get the meetings started by 7:00pm so try to be there a few minutes beforehand. The venue is the Western Ontario Fish & Game Protective Association's clubhouse located just east of the Dearness Home on Southdale Road (East), on the North side of Southdale Road. The address is 790 Southdale Road East, London, Ontario.<br><br>
 Note: Every now and then we have "off-site" meetings. For example, the July and August meetings are "fishing meetings" so we won't be at WOFGPA clubhouse. Stay on top of these changes by visiting this Web site often.</p>
     </div>
 
-    <div class="hidden">contact form</div>
+    <h3 class="hidden">contact form</h3>
     <div id="Contact">
     <h3>CONTACT US</h3>
     </div>
-    <div id="border1"></div>
+    <div class="border1"></div>
 
     <div class="contact"><!--Contact textbox area-->
       <!-- Forms-->
@@ -114,7 +136,7 @@ Note: Every now and then we have "off-site" meetings. For example, the July and 
       </div>
       <br>
 
-      <div>
+      <div class="lastName">
         <label>Last Name</label>
         <input type="text" name="lastName">
       </div>
@@ -147,24 +169,30 @@ Note: Every now and then we have "off-site" meetings. For example, the July and 
 
     </div><!-- End of contact textbox area-->
 
-    <div class="hidden">local supporters</div>
+    <h1 class="hidden">local supporters</h1>
     <div id="supporters">
 
-    <div id="supportersTitle">
-      <h3>LOCAL SUPPORTERS</h3>
+      <div id="supportersTitle">
+        <h3>Local Supporters</h3>
+      </div>
+
+      <div id="supportersLogo">
+        <div class="slogo">
+        <img src="images/muma.svg" alt="muma logo" width="100px" height="100px">
+        <img src="images/recycling.svg" alt="try recycling logo" width="100px" height="100px">
+        </div>
+
+        <img src="images/angling.svg" alt="angling logo" width="100px" height="100px" id="angling">
+
+        <div class="slogo">
+        <img src="images/guillevin.svg" alt="guillevin logo" width="100px" height="100px">
+        <img src="images/melchers.svg" alt="melchers logo" width="100px" height="100px">
+        </div>
+      </div>
+
     </div>
 
-    <div id="supportersLogo">
-      <img src="images/muma.svg" alt="muma logo">
-      <img src="images/recycling.svg" alt="try recycling logo">
-      <img src="images/angling.svg" alt="angling logo" width="100px" height="100px">
-      <img src="images/guillevin.svg" alt="guillevin logo">
-      <img src="images/melchers.svg" alt="melchers logo" width="50px" height="50px">
-    </div>
-
-    </div>
-
-    <div class="hidden">buttons at footer</div>
+    <h1 class="hidden">buttons at footer</h1>
     <div id="Button">
       <div id="bottomBut">
         <a href="">MEMBERSHIPS</a>
@@ -172,7 +200,7 @@ Note: Every now and then we have "off-site" meetings. For example, the July and 
       </div>
     </div>
 
-    <div class="hidden">main footer</div>
+    <h1 class="hidden">main footer</h1>
     <footer class="mainFooter">
 
       <div class="LogoNav">
@@ -208,11 +236,11 @@ Note: Every now and then we have "off-site" meetings. For example, the July and 
         <h2 class="hidden">Footer navigation</h2>
           <ul>
             <li><a href="index.html">HOME</a></li>
-            <li><a href="">ABOUT</a></li>
+            <li><a href="about.html">ABOUT</a></li>
             <li><a href="contact.html">CONTACT</a></li>
             <li><a href="project.html">PROJECTS</a></li>
-            <li><a href="">NEWSLETTER</a></li>
-            <li><a href="">RESOURCES</a></li>
+            <li><a href="newsletter.html">NEWSLETTER</a></li>
+            <li><a href="resources.html">RESOURCES</a></li>
             </ul>
       </nav>
     </div>
@@ -233,7 +261,7 @@ Note: Every now and then we have "off-site" meetings. For example, the July and 
 
 
         <div id="copyright">
-          <p>&copy 2019 Thames River Anglers Association</p>
+          <p>&copy; 2019 Thames River Anglers Association</p>
         </div>
       </div>
   </footer>

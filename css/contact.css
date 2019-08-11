@@ -1,0 +1,850 @@
+
+input
+{
+	width: 115%
+}
+
+input[type=text]
+{
+padding: 10px 10px;
+margin: 8px 0;
+box-sizing: border-box;
+}
+
+input[type=email]
+{
+padding: 10px 30px;
+margin: 8px 0;
+box-sizing: border-box;
+}
+
+input[type=phone]
+{
+padding: 10px 30px;
+margin: 8px 0;
+box-sizing: border-box;
+}
+
+input[type=message]
+{
+  width: 300%;
+	color: black;
+	padding: 40px 30px;
+	margin: 8px 0;
+	box-sizing: border-box;
+}
+
+#hero2 {
+  margin-top: 20px;
+  background: url('../images/heroimage_contact.jpg');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+}
+
+.heroText2 {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 320px;
+  z-index: +1;
+}
+
+.heroText2 h1 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-style: black;
+  font-size: 70px;
+  text-align: center;
+	color: white;
+}
+
+#contactinfo {
+  margin-top: 90px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+#contactinfo h3 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font-style: black;
+  font-size: 50px;
+  text-align: center;
+	color: black;
+}
+
+#contactinfo p {
+  line-height: 40px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+	color: black;
+}
+
+#infoText {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+	align-items: center;
+}
+
+#infoText h3 {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+}
+
+#infoText p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  text-align: center;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+}
+
+.border2 {
+  width: 60px;
+  height: 2px;
+	display: flex;
+	flex-shrink: 0;
+  background-color: #464646;
+  color: #464646;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icon {
+  margin-top: 5px;
+  width: 200px;
+  height: 200px;
+	margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.icon img {
+  display: flex;
+  flex-direction: column;
+  margin-left: 55px;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.icon a {
+  text-decoration: none;
+  color: black;
+}
+
+.icon1 {
+  margin-top: 30px;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.icon1 img {
+  display: flex;
+  flex-direction: column;
+  margin-left: 55px;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.icon1 a {
+  text-decoration: none;
+  color: black;
+}
+
+#meeting {
+  margin-top: 90px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+#meeting h3 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font-style: black;
+  font-size: 50px;
+  text-align: center;
+	color: black;
+}
+
+#meeting p {
+  line-height: 30px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+	color: black;
+}
+
+#Contact h3 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font-style: black;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 160px;
+}
+
+.contact
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+	align-items: center;
+	margin-left: 10%;
+  margin-top: 50px;
+	padding-bottom: 40px;
+}
+
+.contact p
+{
+	padding-top: 40px;
+}
+
+.contactName
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.contactP-E label
+{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400px;
+  font-size: 20px;
+}
+
+.contactP-E
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.contactName label
+{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400px;
+  font-size: 20px;
+}
+
+.firstName
+{
+  margin-right: 80px;
+	margin-bottom: 30px;
+}
+
+.lastName
+{
+  margin-right: 80px;
+}
+
+.E-mail
+{
+  margin-right: 80px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.phone {
+	margin-right: 78px;
+  margin-bottom: 40px;
+}
+
+.message
+{
+  margin-right: 95px;
+}
+
+.message label {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.message textarea {
+  margin-top: 10px;
+  width: 121%;
+	height: 80px;
+}
+
+.submit
+{
+	margin-top: 20px;
+  margin-bottom: 130px;
+}
+
+.submit a
+{
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+	margin-right: 260px;
+	color: white;
+	background-color: #00a651;
+	padding: 15px;
+}
+
+.submit a:hover
+{
+	color: #D0E4DD;
+	background-color: black;
+}
+
+@media screen and (min-width: 768px) {
+	input
+	{
+		width: 135%
+	}
+
+	input[type=text]
+	{
+	padding: 10px 10px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	}
+
+	input[type=email]
+	{
+	padding: 10px 30px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	}
+
+	input[type=phone]
+	{
+	padding: 10px 30px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	}
+
+	input[type=message]
+	{
+		width: 300%;
+		color: black;
+		padding: 40px 30px;
+		margin: 8px 0;
+		box-sizing: border-box;
+	}
+
+	#infoText {
+	  margin-top: 80px;
+		width: 98%;
+	  display: flex;
+	  flex-direction: row;
+	  justify-content: space-evenly;
+	}
+
+	#infoText h3 {
+	  font-family: "Oswald", sans-serif;
+	  font-style: normal;
+	  font-size: 20px;
+	  text-align: center;
+	}
+
+	#infoText p {
+	  font-family: "Roboto", sans-serif;
+	  font-style: normal;
+	  font-size: 14px;
+	  text-align: center;
+	}
+
+	.icon {
+	  margin-top: 10px;
+	  width: 200px;
+	  height: 200px;
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+	  text-align: center;
+	}
+
+	.icon img {
+	  display: flex;
+	  flex-direction: column;
+	  margin-left: 50px;
+	  justify-content: center;
+	  text-align: center;
+	  margin-bottom: 20px;
+	}
+
+	.icon a {
+	  text-decoration: none;
+	  color: black;
+	}
+
+	.icon1 {
+	  margin-top: 40px;
+	  width: 200px;
+	  height: 200px;
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+	  text-align: center;
+	}
+
+	.icon1 img {
+	  display: flex;
+	  flex-direction: column;
+	  margin-left: 50px;
+	  justify-content: center;
+	  text-align: center;
+	  margin-bottom: 10px;
+	}
+
+	.icon1 a {
+	  text-decoration: none;
+	  color: black;
+	}
+
+	#Contact h3 {
+	  font-family: "Oswald", sans-serif;
+	  font-weight: 700;
+	  font-style: black;
+	  font-size: 40px;
+	  text-align: center;
+	  margin-top: 160px;
+	}
+
+	.contact
+	{
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+		align-items: center;
+		margin-left: 100px;
+	  margin-right: 100px;
+	  margin-top: 50px;
+		padding-bottom: 40px;
+	}
+
+	.contact p
+	{
+		padding-top: 40px;
+	}
+
+	.contactName
+	{
+	  display: flex;
+	  flex-direction: row;
+	}
+
+	.contactP-E label
+	{
+	  font-family: "Roboto", sans-serif;
+	  font-weight: 400px;
+	  font-size: 20px;
+	}
+
+	.contactP-E
+	{
+		margin-top: -30px;
+	  display: flex;
+	  flex-direction: row;
+	}
+
+	.contactName label
+	{
+	  font-family: "Roboto", sans-serif;
+	  font-weight: 400px;
+	  font-size: 20px;
+	}
+
+	.firstName
+	{
+	  margin-right: 125px;
+	}
+
+	.E-mail
+	{
+	  margin-right: 120px;
+	  margin-top: 40px;
+	  margin-bottom: 40px;
+	}
+
+	.phone {
+	  margin-top: 40px;
+	  margin-bottom: 40px;
+	}
+
+	.message
+	{
+	  margin-right: 95px;
+	}
+
+	.message label {
+	  font-family: "Roboto", sans-serif;
+	  font-weight: 400px;
+	  font-size: 20px;
+	  margin-bottom: 10px;
+	}
+
+	.message textarea {
+	  margin-top: 10px;
+	  width: 115%;
+		height: 100px;
+	}
+
+	.submit
+	{
+		margin-left: 40%;
+		margin-top: 20px;
+	  margin-bottom: 130px;
+	}
+
+	.submit a
+	{
+	  font-family: "Oswald", sans-serif;
+	  font-weight: 400;
+	  text-decoration: none;
+	  margin-right: 720px;
+		color: white;
+		background-color: #00a651;
+		padding: 15px;
+	}
+
+	.submit a:hover
+	{
+		color: #D0E4DD;
+		background-color: black;
+	}
+}
+
+@media screen and (min-width: 1025px) {
+
+	input
+	{
+		width: 115%
+	}
+
+	input[type=text]
+	{
+	padding: 10px 10px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	}
+
+	input[type=email]
+	{
+	padding: 10px 30px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	}
+
+	input[type=phone]
+	{
+	padding: 10px 30px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	}
+
+	input[type=message]
+	{
+	  width: 300%;
+		color: black;
+		padding: 40px 30px;
+		margin: 8px 0;
+		box-sizing: border-box;
+	}
+
+	#hero2 {
+	  margin-top: 20px;
+	  background: url('../images/heroimage_contact.jpg');
+	  background-size: cover;
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+	  width: 100%;
+	  height: 500px;
+	}
+
+	.heroText2 {
+	  width: 944px;
+	  height: 350px;
+	  margin-left: 180px;
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+	  position: absolute;
+	  top: 320px;
+	  z-index: +1;
+	}
+
+	.heroText2 h1 {
+	  font-family: "Oswald", sans-serif;
+	  font-weight: 500;
+	  font-style: black;
+	  font-size: 70px;
+	  text-align: center;
+		color: white;
+	}
+
+	#contactinfo {
+	  margin-top: 90px;
+
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+	  text-align: center;
+	}
+
+	#contactinfo h3 {
+	  font-family: "Oswald", sans-serif;
+	  font-weight: 700;
+	  font-style: black;
+	  font-size: 50px;
+	  text-align: center;
+		color: black;
+	}
+
+	#contactinfo p {
+	  line-height: 40px;
+	  font-family: "Roboto", sans-serif;
+	  font-style: normal;
+	  font-size: 20px;
+	  margin-top: 20px;
+	  text-align: center;
+		color: black;
+	}
+
+	#infoText {
+	  margin-top: 80px;
+	  display: flex;
+	  flex-direction: row;
+	  justify-content: space-evenly;
+	}
+
+	#infoText h3 {
+	  font-family: "Oswald", sans-serif;
+	  font-style: normal;
+	  font-size: 20px;
+	  text-align: center;
+	}
+
+	#infoText p {
+	  font-family: "Roboto", sans-serif;
+	  font-style: normal;
+	  font-size: 14px;
+	  text-align: center;
+	}
+
+	.icon {
+	  margin-top: 5px;
+	  width: 300px;
+	  height: 300px;
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+	  text-align: center;
+	}
+
+	.icon img {
+	  display: flex;
+	  flex-direction: column;
+	  margin-left: 100px;
+	  justify-content: center;
+	  text-align: center;
+	  margin-bottom: 20px;
+	}
+
+	.icon a {
+	  text-decoration: none;
+	  color: black;
+	}
+
+	.icon1 {
+	  margin-top: 20px;
+	  width: 300px;
+	  height: 300px;
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+	  text-align: center;
+	}
+
+	.icon1 img {
+	  display: flex;
+	  flex-direction: column;
+	  margin-left: 100px;
+	  justify-content: center;
+	  text-align: center;
+	  margin-bottom: 20px;
+	}
+
+	.icon1 a {
+	  text-decoration: none;
+	  color: black;
+	}
+
+	#meeting {
+	  margin-top: 90px;
+
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+	  text-align: center;
+	}
+
+	#meeting h3 {
+	  font-family: "Oswald", sans-serif;
+	  font-weight: 700;
+	  font-style: black;
+	  font-size: 50px;
+	  text-align: center;
+		color: black;
+	}
+
+	#meeting p {
+	  line-height: 30px;
+	  font-family: "Roboto", sans-serif;
+	  font-style: normal;
+	  font-size: 20px;
+	  margin-top: 20px;
+	  text-align: center;
+		color: black;
+	}
+
+	#Contact h3 {
+	  font-family: "Oswald", sans-serif;
+	  font-weight: 700;
+	  font-style: black;
+	  font-size: 40px;
+	  text-align: center;
+	  margin-top: 160px;
+	}
+
+	.contact
+	{
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+		align-items: center;
+		margin-left: 100px;
+	  margin-right: 100px;
+	  margin-top: 50px;
+		padding-bottom: 40px;
+	}
+
+	.contact p
+	{
+		padding-top: 40px;
+	}
+
+	.contactName
+	{
+	  display: flex;
+	  flex-direction: row;
+	}
+
+	.contactP-E label
+	{
+	  font-family: "Roboto", sans-serif;
+	  font-weight: 400px;
+	  font-size: 20px;
+	}
+
+	.contactP-E
+	{
+	  display: flex;
+	  flex-direction: row;
+	}
+
+	.contactName label
+	{
+	  font-family: "Roboto", sans-serif;
+	  font-weight: 400px;
+	  font-size: 20px;
+	}
+
+	.firstName
+	{
+	  margin-right: 125px;
+	}
+
+	.E-mail
+	{
+	  margin-right: 125px;
+	  margin-top: 40px;
+	  margin-bottom: 40px;
+	}
+
+	.phone {
+	  margin-top: 40px;
+	  margin-bottom: 40px;
+	}
+
+	.message
+	{
+	  margin-right: 95px;
+	}
+
+	.message label {
+	  font-family: "Roboto", sans-serif;
+	  font-weight: 400px;
+	  font-size: 20px;
+	  margin-bottom: 10px;
+	}
+
+	.message textarea {
+	  margin-top: 10px;
+	  width: 107%;
+		height: 100px;
+	}
+
+	.submit
+	{
+		margin-top: 20px;
+	  margin-bottom: 130px;
+	}
+
+	.submit a
+	{
+	  font-family: "Oswald", sans-serif;
+	  font-weight: 400;
+	  text-decoration: none;
+	  margin-right: 1180px;
+		color: white;
+		background-color: #00a651;
+		padding: 15px;
+	}
+
+	.submit a:hover
+	{
+		color: #D0E4DD;
+		background-color: black;
+	}
+
+}
