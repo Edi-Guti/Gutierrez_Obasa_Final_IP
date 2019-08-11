@@ -1,0 +1,1245 @@
+
+#hero {
+  margin-top: 20px;
+  background: url('../images/heroimage1.jpg');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+}
+
+.heroText {
+  width: 100%;
+  height: 335px;
+  display: flex;
+  flex-direction: column;
+  top: 300px;
+  z-index: +1;
+}
+
+.heroText h1 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-style: black;
+  font-size: 70px;
+  text-align: center;
+	color: white;
+}
+
+.heroText h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: black;
+  font-size: 40px;
+  text-align: center;
+	color: white;
+  margin-bottom: 50px;
+}
+
+#money {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 50px;
+  margin-left: 7%;
+  width: 100%;
+  text-align: center;
+	color: black;
+}
+
+#membership {
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 30px;
+  width: 85%;
+  height: 240px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#membership h3 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 200;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+
+#membership p {
+  margin-bottom: 30px;
+  line-height: 20px;
+}
+
+#membership a {
+  font-family: "Oswald", sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 10px;
+  background-color: #00a651;
+  color: white;
+}
+
+#membership a:hover {
+  background-color: grey ;
+  color: white;
+}
+
+#fundraising {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 50px;
+  width: 85%;
+  height: 240px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+#fundraising h3 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+
+#fundraising p {
+  margin-bottom: 10px;
+  line-height: 20px;
+}
+
+#fundraising a {
+  font-family: "Oswald", sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  margin-top: 20px;
+  text-decoration: none;
+  padding: 10px;
+  background-color: #00a651;
+  color: white;
+}
+
+#fundraising a:hover {
+  background-color: grey ;
+  color: white;
+}
+
+#Few {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  float: right;
+  width: 100%;
+  height: 1000px;
+}
+
+#Few img{
+  width: 100%;
+  height: 350px;
+  margin-bottom: 20px;
+}
+
+#Few h3 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+#Few p {
+  line-height: 30px;
+  margin-top: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+#Few a{
+  text-decoration: none;
+  color: #00a651;
+}
+
+#Few a:hover {
+  color: black;
+}
+
+#fewText {
+  margin-left: 10px;
+  width: 100%;
+  height: 500px;
+}
+
+.latestNews {
+  margin-top: 97px;
+  width: 100%;
+}
+
+.latestNews h1{
+  margin-top: 97px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  text-align: center;
+}
+
+.Events{
+  margin-top: 36px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.Event img{
+  width: 100%;
+  height: 300px;
+}
+
+.Event h3 {
+  margin-top: 20px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.Event h4 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.Event p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 15.35px;
+}
+
+.text {
+  width: 100%;
+  height: 220px;
+  line-height: 28.79px;
+}
+
+.text a{
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  color: #00a651;
+}
+
+
+
+.Gear {
+  margin-top: 90px;
+  margin-bottom: 60px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.Gear p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 30px;
+  color: white;
+  font-size: 20px;
+}
+
+.Gear a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  background-color: #00a651;
+}
+
+.gear {
+  margin-top: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.merch {
+  width: 95% !important;
+  margin-left: 2%;
+  margin-top: 50px;
+  height: 370px;
+  border: solid 2px black;
+}
+
+.merch img {
+  width: 100%;
+  height: 360px;
+}
+
+
+.caption {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  line-height: 70px;
+  width: 100%;
+  color: black;
+  text-align: center;
+  position: relative;
+  top: -270px;
+}
+
+.caption p {
+  color: black;
+}
+
+.caption a{
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding:10px;
+  margin-top: 70px;
+  background-color: #00a651;
+}
+
+.caption a:hover{
+  background-color: grey;
+}
+
+.CProject {
+  margin-top: 90px;
+  margin-bottom: 60px;
+  width: 100%;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.CProject p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 30px;
+  color: white;
+  font-size: 20px;
+}
+
+.CProject a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  background-color: #00a651;
+}
+
+.CPro {
+  margin-top: 45px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.box {
+  margin-top: 50px;
+  width: 100%;
+  height: 360px;
+}
+
+.box img {
+  width: 100%;
+  height: 360px;
+}
+
+.Bcaption {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  line-height: 50px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: -270px;
+}
+
+.Bcaption a{
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding:10px;
+  margin-top: 70px;
+  background-color: #00a651;
+}
+
+.Bcaption a:hover{
+  background-color: grey;
+}
+
+.Pbtn {
+  margin-top: 63px;
+  margin-bottom: 60px;
+}
+
+.Pbtn a {
+	margin-top: 70px;
+	font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  background-color: #00a651;
+}
+
+.Pbtn a:hover {
+  background-color: grey;
+}
+
+@media screen and (min-width: 768px) {
+  #money {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    margin-left: 15%;
+    position: absolute;
+    top: 600px;
+    z-index: +1;
+    text-align: center;
+    color: black;
+  }
+
+  #membership {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    width: 30%;
+    height: 280px;
+    margin-right: 110px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  #membership h3 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 35px;
+    margin-bottom: 20px;
+  }
+
+  #membership p {
+    margin-bottom: 30px;
+    line-height: 20px;
+  }
+
+  #membership a {
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #00a651;
+    color: white;
+  }
+
+  #membership a:hover {
+    background-color: grey ;
+    color: white;
+  }
+
+  #fundraising {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    width: 30%;
+    height: 280px;
+    margin-top: 0;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+
+  #fundraising h3 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 35px;
+    margin-bottom: 20px;
+  }
+
+  #fundraising p {
+    margin-bottom: 10px;
+    line-height: 20px;
+  }
+
+  #fundraising a {
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #00a651;
+    color: white;
+  }
+
+  #fundraising a:hover {
+    background-color: grey ;
+    color: white;
+  }
+
+  #Few {
+    margin-top: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+  }
+
+  #Few source{
+    display: none;
+  }
+
+  .image {
+    background-image: url(../images/pole_small.jpg);
+  }
+
+  #Few h3 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+  }
+
+  #Few p {
+    line-height: 18px;
+    margin-top: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  #Few a{
+    text-decoration: none;
+    color: #00a651;
+  }
+
+  #Few a:hover {
+    color: black;
+  }
+
+  #fewText {
+    margin-left: 10px;
+    width: 50%;
+    height: 350px;
+  }
+
+  .Events{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .Event {
+    width: 50%;
+  }
+
+  .Event img{
+    width: 90%;
+    height: 200px;
+    margin-left: 15px;
+  }
+
+  .Event h3 {
+    margin-top: 20px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+  .Event h4 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+  .Event p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 15.35px;
+  }
+
+  .text {
+    width: 90%;
+    height: 220px;
+    line-height: 28.79px;
+    margin-left: 15px;
+  }
+
+  .text a{
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    color: #00a651;
+  }
+
+  .Gear {
+    margin-top: 90px;
+    margin-bottom: 60px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .Gear p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+    color: white;
+    font-size: 20px;
+  }
+
+  .Gear a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    background-color: #00a651;
+  }
+
+  .gear {
+    margin-top: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .merch {
+    width: 80%;
+    height: 305px;
+    border: solid 2px black;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+
+  .merch img {
+    width: 80%;
+    height: 300px;
+  }
+
+
+  .caption {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    line-height: 70px;
+    color: black;
+    text-align: center;
+    align-items: baseline;
+    position: relative;
+    top: -250px;
+  }
+
+
+  .caption p {
+    color: black;
+  }
+
+  .caption h3 {
+    font-size: 30px;
+  }
+
+  .caption a{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    align-items: baseline;
+    color: white;
+    font-size: 20px;
+    padding:10px;
+    margin-top: 70px;
+    background-color: #00a651;
+  }
+
+  .caption a:hover{
+    background-color: grey;
+  }
+
+  .CProject {
+    margin-top: 90px;
+    margin-bottom: 60px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .CProject p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+    color: white;
+    font-size: 20px;
+  }
+
+  .CProject a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    background-color: #00a651;
+  }
+
+  .CPro {
+    margin-top: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .box {
+    width: 80%;
+    height: 300px;
+  }
+
+  .box img {
+    width: 90%;
+    height: 300px;
+  }
+
+  .Bcaption {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    line-height: 50px;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -240px;
+  }
+
+  .Bcaption h3 {
+    font-size: 30px;
+  }
+
+  .Bcaption a{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding:10px;
+    margin-top: 70px;
+    background-color: #00a651;
+  }
+
+  .Bcaption a:hover{
+    background-color: grey;
+  }
+
+  .Pbtn {
+    margin-top: 63px;
+    margin-bottom: 60px;
+  }
+
+  .Pbtn a {
+  	margin-top: 70px;
+  	font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    background-color: #00a651;
+  }
+
+  .Pbtn a:hover {
+    background-color: grey;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+
+  #hero {
+    margin-top: 20px;
+    background: url('../images/heroimage1.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+  }
+
+  .heroText {
+    width: 100%;
+    height: 335px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 250px;
+    z-index: +1;
+  }
+
+  .heroText h1 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-style: black;
+    font-size: 70px;
+    text-align: center;
+  	color: white;
+  }
+
+  .heroText h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: black;
+    font-size: 40px;
+    text-align: center;
+  	color: white;
+    margin-bottom: 50px;
+  }
+
+  #money {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    margin-left: 20%;
+    position: absolute;
+    top: 600px;
+    z-index: +1;
+    text-align: center;
+  	color: black;
+  }
+
+  #membership {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    width: 25%;
+    height: 240px;
+    margin-right: 110px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  #membership h3 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 35px;
+    margin-bottom: 20px;
+  }
+
+  #membership p {
+    margin-bottom: 30px;
+    line-height: 20px;
+  }
+
+  #membership a {
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #00a651;
+    color: white;
+  }
+
+  #membership a:hover {
+    background-color: grey ;
+    color: white;
+  }
+
+  #fundraising {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    width: 25%;
+    height: 240px;
+    margin-top: 0;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+
+  #fundraising h3 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 35px;
+    margin-bottom: 20px;
+  }
+
+  #fundraising p {
+    margin-bottom: 10px;
+    line-height: 20px;
+  }
+
+  #fundraising a {
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #00a651;
+    color: white;
+  }
+
+  #fundraising a:hover {
+    background-color: grey ;
+    color: white;
+  }
+
+  #Few {
+    margin-top: 200px;
+    margin-bottom: 97px;
+    display: flex;
+    flex-direction: row;
+    float: right;
+    width: 100%;
+    height: 600px;
+  }
+
+  #Few img{
+    display: block;
+    width: 640px;
+    height: 600px;
+  }
+
+  #Few h3 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+  }
+
+  #Few p {
+    line-height: 30px;
+    margin-top: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+  #Few a{
+    text-decoration: none;
+    color: #00a651;
+  }
+
+  #Few a:hover {
+    color: black;
+  }
+
+  #fewText {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 500px;
+    height: 500px;
+  }
+
+  .latestNews {
+    margin-top: 97px;
+  }
+
+  .latestNews h1{
+    margin-top: 97px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .Events{
+    margin-top: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .Event img{
+    width: 400px;
+    height: 300px;
+  }
+
+  .Event h3 {
+    margin-top: 20px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+  .Event h4 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+  .Event p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 15.35px;
+  }
+
+  .text {
+    width: 400px;
+    height: 220px;
+    line-height: 28.79px;
+  }
+
+  .text a{
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    color: #00a651;
+  }
+
+
+
+  .Gear {
+    margin-top: 90px;
+    margin-bottom: 60px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .Gear p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+    color: white;
+    font-size: 20px;
+  }
+
+  .Gear a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    background-color: #00a651;
+  }
+
+  .gear {
+    margin-top: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .merch {
+    width: 360px !important;
+    height: 370px;
+    border: solid 2px black;
+  }
+
+  .merch img {
+    width: 360px;
+    height: 360px;
+  }
+
+
+  .caption {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    line-height: 70px;
+    color: black;
+    text-align: center;
+    position: relative;
+    top: -270px;
+  }
+
+  .caption {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 80%;
+    height:0;
+    transition: .5s ease;
+  }
+
+  .merch {
+    position: relative;
+    width: 50%;
+  }
+
+  .merch:hover .caption {
+    bottom: 0;
+    height: 50%;
+  }
+
+  .caption {
+    font-size: 20px;
+    position: absolute;
+    top: 50% !important;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+
+  .caption p {
+    color: black;
+  }
+
+  .caption a{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding:10px;
+    margin-top: 70px;
+    background-color: #00a651;
+  }
+
+  .caption a:hover{
+    background-color: grey;
+  }
+
+  .CProject {
+    margin-top: 90px;
+    margin-bottom: 60px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .CProject p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+    color: white;
+    font-size: 20px;
+  }
+
+  .CProject a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    background-color: #00a651;
+  }
+
+  .CPro {
+    margin-top: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .box {
+    width: 360px;
+    height: 360px;
+  }
+
+  .box img {
+    width: 360px;
+    height: 360px;
+  }
+
+  .Bcaption {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    line-height: 50px;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -270px;
+  }
+
+  .Bcaption a{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding:10px;
+    margin-top: 70px;
+    background-color: #00a651;
+  }
+
+  .Bcaption a:hover{
+    background-color: grey;
+  }
+
+  .Pbtn {
+    margin-top: 63px;
+    margin-bottom: 60px;
+  }
+
+  .Pbtn a {
+  	margin-top: 70px;
+  	font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    background-color: #00a651;
+  }
+
+  .Pbtn a:hover {
+    background-color: grey;
+  }
+}

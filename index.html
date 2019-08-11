@@ -5,15 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+  <!-- LINKS! -->
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/index.css">
+
   <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto&display=swap" rel="stylesheet">
 
-  <title>Document</title>
+  <title>Welcome | Thames River Anglers Association</title>
 </head>
 <body>
   <main class="siteContainer">
 
+    <h1 class="hidden">Header</h1>
     <div class="hidden">beginning of header</div>
     <header id="mainHeader">
       <!--Beginning of Logo-->
@@ -22,19 +26,36 @@
       </div>
 
       <nav id="mainNav"><!--beginning of mainNav-->
-        <ul>
+        <button id="button"></button>
+        <h2 class="hidden">header nav</h2>
+
+      <div id="burgerCon">
+        <ul id="burgerMenu">
           <li><a href="index.html">HOME</a></li>
-          <li><a href="">ABOUT</a></li>
+          <li><a href="about.html">ABOUT</a></li>
           <li><a href="contact.html">CONTACT</a></li>
           <li><a href="project.html">PROJECTS</a></li>
-          <li><a href="">NEWSLETTER</a></li>
-          <li><a href="">RESOURCES</a></li>
+          <li><a href="newsletter.html">NEWSLETTER</a></li>
+          <li><a href="resources.html">RESOURCES</a></li>
+        </ul>
+      </div>
+
+        <nav id="nav">
+          <ul id="navMenu">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+          <li><a href="project.html">PROJECTS</a></li>
+          <li><a href="newsletter.html">NEWSLETTER</a></li>
+          <li><a href="resources.html">RESOURCES</a></li>
           </ul>
+        </nav>
+
       </nav><!--end mainNav-->
 
     </header>
 
-    <div class="hidden">hero-header</div>
+    <h1 class="hidden">hero-header</h1>
     <div id="hero">
 
     <div class="heroText">
@@ -46,7 +67,7 @@
 
     </div>
 
-    <div class="hidden">boxes on top</div>
+    <h2 class="hidden">boxes on top</h2>
     <div id="money">
 
     <div id="membership">
@@ -63,41 +84,45 @@
 
     </div>
 
-    <div class="hidden">about us</div>
+    <h1 class="hidden">about us</h1>
     <div id="Few">
-      <img src="images/pole.jpg" alt="">
+      <picture>
+        <source srcset="images/pole_small.jpg" media="(min-width: 768px)">
+        <!-- always include a default image for browsers that don't support picture tag, and also if a media query doesn't match -->
+        <img src="images/pole.jpg" alt="hubble_image">
+      </picture>
       <div id="fewText">
       <h3>A Few Words About Us</h3>
       <div id="border"></div>
       <p>In the spring of 1986 the TRAA was formed by anglers concerned with the state of the fishery in the Thames River watershed, particularly the dwindling smallmouth bass population in the North Thames River.<br><br>
       The TRAA is not a fishing club, although most members are anglers and share fishing as a common interest. We are a "hands on" environmental group who likes to work at a grass roots level.<br><br>
-      The TRAA is a volunteer organization, governed by a formal constitution and by-laws. An elected Executive, with the guidence of the General Membership, sets the policies and direction for the TRAA..... <a href="">Read More</a></p>
+      The TRAA is a volunteer organization, governed by a formal constitution and by-laws. An elected Executive, with the guidence of the General Membership, sets the policies and direction for the TRAA..... <a href="about.html">Read More</a></p>
       </div>
     </div>
 
-    <div class="hidden">latest news</div>
+    <h1 class="hidden">latest news</h1>
     <div class="latestNews">
 
     <div class="hidden"> Latest News</div>
       <h1>Latest News</h1>
-      <div id="border1"></div>
+      <div class="border1"></div>
 
-    <div id="Events">
+    <div class="Events">
 
-    <div id="Event">
+    <div class="Event">
       <img src="images/fry.jpg" alt="fry_image">
 
-    <section id="text">
+    <section class="text">
       <h3>TRAA TROUT HATCHERY</h3>
       <h4>Rainbow Trout Eggs have Arrived!</h4>
       <p>This year's allotment of rainbow trout eggs were delivered to the trout hatchery April 16th. This means we now have both rainbows and browns..... <a href="">READ MORE</a></p>
     </section>
     </div>
 
-    <div id="Event">
+    <div class="Event">
       <img src="images/children.jpg" alt="children">
 
-      <section id="text">
+      <section class="text">
       <h3>CHILDREN’S WATER FESTIVAL</h3>
       <h4>Fanshawe Conservation Area - May 16 - 17, 2019</h4>
       <p>The TRAA will be taking part in the "Public Night" portion of the event, Thursday, May 16 from 5:00pm to 8:00pm.....
@@ -105,10 +130,10 @@
       </section>
       </div>
 
-    <div id="Event">
+    <div class="Event">
       <img src="images/map.jpg" alt="map image">
 
-      <section id="text">
+      <section class="text">
       <h3>TRAA GENERAL MEETING</h3>
       <h4>7:00PM - Wednesday, June 12, 2019</h4>
       <p>This will be our last meeting before the summer hiatus. The next General Meeting will be September 11, 2019.....
@@ -118,22 +143,22 @@
 
   </div>
 
-      <div id="Events">
+      <div class="Events">
 
-          <div id="Event">
+          <div class="Event">
             <img src="images/paddle_fish.jpg" alt="paddle & fish">
 
-        <section id="text">
+        <section class="text">
           <h3>TRAA PADDLE & FISH</h3>
           <h4>Saturday, July 13, 2019</h4>
           <p>We've picked the date for this year's Paddle & Fish but have yet to decide on the route. So far, the route with the most....... <a href="">READ MORE</a></p>
         </section>
       </div>
 
-        <div id="Event">
+        <div class="Event">
           <img src="images/evenings.jpg" alt="fishing evenings">
 
-          <section id="text">
+          <section class="text">
           <h3>TRAA FISHING EVENINGS</h3>
           <h4>Thursdays, July & August, 2019</h4>
           <p>We'll be heading out to try our luck every Thursday evening in July and August this summer. Keep an eye on your email for locations .....
@@ -141,10 +166,10 @@
           </section>
           </div>
 
-          <div id="Event">
+          <div class="Event">
             <img src="images/TRAA_Gear.jpg" alt="traa gear">
 
-            <section id="text">
+            <section class="text">
             <h3>TRAA GEAR IS NOW AVAILABLE!</h3>
             <h4>Tee shirts, hats and stickers.</h4>
             <p>Many of you have already ordered the TRAA tee shirts, but if you haven't you had better hurry because many sizes are almost sold out!.....
@@ -156,107 +181,111 @@
 
         </div>
 
-            <div class="hidden">merchandise</div>
+            <h1 class="hidden">merchandise</h1>
         <div class="Gear">
 
           <h1>TRAA Gear</h1>
-          <div id="border1"></div>
+          <div class="border1"></div>
 
         <div class="gear">
-        <div id="merch">
+        <div class="merch">
           <img src="images/white_shirt.jpg" alt="t-shirt">
-          <section id="caption">
+          <section class="caption">
               <h3>T-SHIRTS</h3>
               <p>These are a steal at $15 each.</p>
-              <a href="project.html">LEARN MORE</a>
+              <a href="#">LEARN MORE</a>
           </section>
           </div>
 
-          <div id="merch">
+          <div class="merch">
             <img src="images/cap.jpg" alt="cap image">
-            <section id="caption">
+            <section class="caption">
                 <h3>CAP</h3>
                 <P>Clay Grey, Burnt Orange and Taupe.</P>
-                <a href="project.html">LEARN MORE</a>
+                <a href="#">LEARN MORE</a>
               </section>
           </div>
 
-          <div id="merch">
+          <div class="merch">
               <img src="images/stickers.jpg" alt="stickers">
-              <section id="caption">
+              <section class="caption">
                   <h3>STICKERS</h3>
                   <p>These are $2 each</p>
-                  <a href="project.html">LEARN MORE</a>
+                  <a href="#">LEARN MORE</a>
                 </section>
 
           </div>
         </div>
 
 
-            <div id="Pbtn">
+            <div class="Pbtn">
               <a href="project.html">VIEW MORE</a>
             </div>
         </div>
 
-            <div class="hidden">current projects</div>
+            <h1 class="hidden">current projects</h1>
             <div class="CProject">
 
               <h1>Current Projects</h1>
-              <div id="border1"></div>
+              <div class="border1"></div>
 
           <div class="CPro">
-            <div id="box">
+            <div class="box">
               <img src="images/Salmonid.jpg" alt="salmonid picture">
-              <section id="Bcaption">
+              <section class="Bcaption">
                   <h3>SALMONID<br> MONITORING<br> PROGRAM</h3>
                   <a href="project.html">LEARN MORE</a>
               </section>
               </div>
 
-              <div id="box">
+              <div class="box">
                 <img src="images/fish_catch.jpg" alt="fish catch image">
-                <section id="Bcaption">
+                <section class="Bcaption">
                     <h3>PROJECT <BR><br> ARCHIVES</h3>
                     <a href="project.html">LEARN MORE</a>
                   </section>
               </div>
 
-              <div id="box">
+              <div class="box">
                   <img src="images/Trout_Hatchery.jpg" alt="trout image">
-                  <section id="Bcaption">
+                  <section class="Bcaption">
                       <h3>TRAA<BR> TROUT<BR> HATCHERY</h3>
                       <a href="project.html">LEARN MORE</a>
                     </section>
-
               </div>
+
           </div>
 
 
-        <div id="Pbtn">
+        <div class="Pbtn">
           <a href="project.html">VIEW PROJECTS</a>
         </div>
   </div>
 
-</div>
-
-      <div class="hidden">local supporters</div>
+      <h1 class="hidden">local supporters</h1>
         <div id="supporters">
 
-        <div id="supportersTitle">
-          <h3>LOCAL SUPPORTERS</h3>
+          <div id="supportersTitle">
+            <h3>Local Supporters</h3>
+          </div>
+
+          <div id="supportersLogo">
+            <div class="slogo">
+            <img src="images/muma.svg" alt="muma logo" width="100px" height="100px">
+            <img src="images/recycling.svg" alt="try recycling logo" width="100px" height="100px">
+            </div>
+
+            <img src="images/angling.svg" alt="angling logo" width="100px" height="100px" id="angling">
+
+            <div class="slogo">
+            <img src="images/guillevin.svg" alt="guillevin logo" width="100px" height="100px">
+            <img src="images/melchers.svg" alt="melchers logo" width="100px" height="100px">
+            </div>
+          </div>
+
         </div>
 
-        <div id="supportersLogo">
-          <img src="images/muma.svg" alt="muma logo">
-          <img src="images/recycling.svg" alt="try recycling logo">
-          <img src="images/angling.svg" alt="angling logo" width="100px" height="100px">
-          <img src="images/guillevin.svg" alt="guillevin logo">
-          <img src="images/melchers.svg" alt="melchers logo" width="50px" height="50px">
-        </div>
-
-        </div>
-
-          <div class="hidden">main footer</div>
+          <h1 class="hidden">main footer</h1>
           <footer class="mainFooter">
 
             <div class="LogoNav">
@@ -292,11 +321,11 @@
               <h2 class="hidden">Footer navigation</h2>
                 <ul>
                   <li><a href="index.html">HOME</a></li>
-                  <li><a href="">ABOUT</a></li>
+                  <li><a href="about.html">ABOUT</a></li>
                   <li><a href="contact.html">CONTACT</a></li>
                   <li><a href="project.html">PROJECTS</a></li>
-                  <li><a href="">NEWSLETTER</a></li>
-                  <li><a href="">RESOURCES</a></li>
+                  <li><a href="newsletter.html">NEWSLETTER</a></li>
+                  <li><a href="resources.html">RESOURCES</a></li>
                   </ul>
             </nav>
           </div>
@@ -315,9 +344,8 @@
                 <p>traa@anglers.org</p>
               </div>
 
-
               <div id="copyright">
-                <p>&copy 2019 Thames River Anglers Association</p>
+                <p>&copy; 2019 Thames River Anglers Association</p>
               </div>
             </div>
         </footer>

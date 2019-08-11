@@ -1,0 +1,756 @@
+#hero {
+  margin-top: 20px;
+  background: url('../images/heroimage_about.jpg');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+}
+
+#heroText {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 320px;
+  z-index: +1;
+}
+
+#heroText h1 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-style: black;
+  font-size: 70px;
+  text-align: center;
+	color: white;
+}
+
+.videol {
+  width: 85%;
+  margin: 5% auto 10% auto;
+  display: block;
+}
+
+.video {
+  display: none;
+}
+
+#AboutUs {
+  margin-top: 90px;
+  margin-bottom: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+#AboutUs h3 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font-style: black;
+  font-size: 50px;
+  text-align: center;
+	color: black;
+}
+
+#AboutUs p {
+  line-height: 40px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+	color: black;
+}
+
+.team h3 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font-style: black;
+  font-size: 50px;
+  text-align: center;
+	color: black;
+}
+
+.teamNames {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#volunteer {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font-style: black;
+  font-size: 50px;
+  text-align: center;
+	color: black;
+  margin-top: 100px;
+}
+
+#design {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.names{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.names h2{
+  font-family: "Oswald", sans-serif;
+  font-weight: 200;
+  font-size: 15px;
+  text-align: center;
+	color: #00a651;
+  text-align: left;
+}
+
+.names h3 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font-size: 23px;
+  text-align: center;
+	color: black;
+  text-align: left;
+}
+
+#objectives {
+  margin-top: 90px;
+  margin-bottom: 97px;
+  display: flex;
+  flex-direction: row;
+  float: right;
+  width: 100%;
+  height: 800px;
+}
+
+#objectives img{
+  max-width: 100%;
+  height: 300px;
+}
+
+.pImage {
+  display: none;
+}
+
+.pImg {
+  width: 100%;
+  height: 300px;
+}
+
+#objectives h3 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+#objectives p {
+  line-height: 30px;
+  margin-top: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+#objectivesText li {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  list-style: circle;
+}
+
+#objectives a{
+  text-decoration: none;
+  color: #00a651;
+}
+
+#objectivesText {
+  margin-top: 50px;
+  width: 600px;
+  height: 600px;
+}
+
+#galleryText {
+  margin-bottom: 60px;
+}
+
+#gallery h3 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  text-align: center;
+	color: black;
+}
+
+#gallery img {
+  width: 166px;
+  height: 136px;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+#galleryImg {
+  display: flex;
+  flex-direction: column;
+}
+
+#galleryImg1 {
+  display: none !important;
+}
+
+#videoImg {
+  margin-left: 3%;
+  margin-top: 30px;
+}
+
+/* add styles here for lightbox and video */
+.lightbox {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  background-color: rgba(0,0,0,0.8);
+  display: none;
+}
+
+.show-lightbox {
+  display: block;
+}
+
+.close-lightbox {
+  float: right;
+  margin-right: 20px;
+  color: white;
+}
+
+#galleryImg2 {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  background-color: rgba(0,0,0,0.8);
+  display: none;
+}
+
+#fish, #river, #trout, #bin, #net, #picking {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  background-color: rgba(0,0,0,0.8);
+  display: none;
+}
+
+#fish img, #river img, #trout img, #bin img, #net img, #picking img {
+  margin-top: 100px;
+  width: 100%;
+  height: 50%;
+}
+
+#close1, #close2, #close3, #close4, #close5, #close6 {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+
+#btn {
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+#btn a {
+	margin-top: 70px;
+	font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  background-color: #00a651;
+}
+
+#btn a:hover{
+  background-color: grey;
+}
+
+
+@media screen and (min-width: 768px) {
+  .video {
+  	width: 85%;
+  	margin: 5% auto 10% auto;
+    display: block;
+  }
+
+  #videoImg {
+    display: none !important;
+  }
+
+  .explainer {
+    display: none !important;
+  }
+
+
+  #AboutUs {
+    margin-top: 90px;
+    margin-bottom: 59px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #AboutUs h3 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-style: black;
+    font-size: 50px;
+    text-align: center;
+  	color: black;
+  }
+
+  #AboutUs p {
+    line-height: 40px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+  	color: black;
+  }
+
+  .team h3 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-style: black;
+    font-size: 40px;
+    text-align: center;
+  	color: black;
+  }
+
+  .teamNames {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 10px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  #volunteer {
+    margin-top: 100px;
+  }
+
+  #design {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .names{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .names h2{
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    text-align: center;
+  	color: #00a651;
+    text-align: left;
+  }
+
+  .names h3 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+  	color: black;
+    text-align: left;
+  }
+
+  #objectives {
+    margin-top: 90px;
+    margin-bottom: 97px;
+    display: flex;
+    flex-direction: row;
+    float: right;
+    width: 100%;
+    height: 500px;
+  }
+
+  #objectives img{
+    width: 400px;
+    height: 360px ;
+  }
+
+  .pImg {
+    display: none;
+  }
+
+  .pImage {
+    display: block;
+  }
+
+
+  #objectives h3 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+  }
+
+  #objectives p {
+    line-height: 20px;
+    margin-top: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  #objectivesText ul {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  #objectivesText li {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  #objectives a{
+    text-decoration: none;
+    color: #00a651;
+  }
+
+  #objectivesText {
+    margin-top: 0px;
+    margin-left: 30px;
+    width: 50%;
+    height: 400px;
+  }
+
+  #galleryText {
+    margin-bottom: 60px;
+  }
+
+  #gallery h3 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+  	color: black;
+  }
+
+  #galleryImg1 {
+    display: block !important;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #galleryImg {
+    display: none;
+  }
+
+  #gallery img {
+    width: 220px;
+    height: 180px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+  }
+
+  #btn {
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+  }
+
+  #btn a {
+  	margin-top: 70px;
+  	font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    background-color: #00a651;
+  }
+
+  #btn a:hover{
+    background-color: grey;
+  }
+}
+
+
+@media screen and (min-width: 1025px) {
+
+  #hero {
+    margin-top: 20px;
+    background: url('../images/heroimage_about.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+  }
+
+  #heroText {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 320px;
+    z-index: +1;
+  }
+
+  #heroText h1 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-style: black;
+    font-size: 70px;
+    text-align: center;
+  	color: white;
+  }
+
+  #videoImg {
+    display: none;
+  }
+
+  .lightbox {
+    display: none;
+  }
+
+
+  .lightbox video {
+  	width: 85%;
+  	margin: 0 auto;
+    display: block !important;
+  }
+
+  #AboutUs {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #AboutUs h3 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-style: black;
+    font-size: 50px;
+    text-align: center;
+  	color: black;
+  }
+
+  #AboutUs p {
+    line-height: 40px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+  	color: black;
+  }
+
+  .team h3 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-style: black;
+    font-size: 50px;
+    text-align: center;
+  	color: black;
+  }
+
+  .teamNames {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 50px;
+    justify-content: center;
+  }
+
+  #volunteer {
+    margin-top: 100px;
+  }
+
+  #design {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .names{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .names h2{
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    text-align: center;
+  	color: #00a651;
+    text-align: left;
+  }
+
+  .names h3 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+  	color: black;
+    text-align: left;
+  }
+
+  #objectives {
+    margin-top: 90px;
+    margin-bottom: 97px;
+    display: flex;
+    flex-direction: row;
+    float: right;
+    width: 100%;
+    height: 600px;
+  }
+
+  #objectives img{
+    width: 50%;
+    height: 600px ;
+  }
+
+  .pImg {
+    display: none;
+  }
+
+  .pImage {
+    display: block;
+  }
+
+
+  #objectives h3 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+  }
+
+  #objectives p {
+    line-height: 30px;
+    margin-top: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+  #objectives li {
+    font-size: 20px;
+    list-style-type: none;
+  }
+
+  #objectivesText ul {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  #objectives a{
+    text-decoration: none;
+    color: #00a651;
+  }
+
+  #objectivesText {
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 640px;
+    height: 600px;
+  }
+
+  #galleryText {
+    margin-bottom: 60px;
+  }
+
+  #gallery h3 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+  	color: black;
+  }
+
+  #gallery img {
+    width: 370px;
+    height: 300px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+  }
+
+  #galleryImg {
+    display: none;
+    margin-left: 60px;
+  }
+
+  #galleryImg1 {
+    display: block !important;
+    margin-left: 100px;
+  }
+
+  #btn {
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+  }
+
+  #btn a {
+  	margin-top: 70px;
+  	font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    background-color: #00a651;
+  }
+
+  #btn a:hover{
+    background-color: grey;
+  }
+}

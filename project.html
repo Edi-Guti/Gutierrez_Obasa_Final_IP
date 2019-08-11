@@ -7,14 +7,15 @@
 
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/project.css">
   <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto&display=swap" rel="stylesheet">
 
-  <title>Document</title>
+  <title>Projects | Thames River Anglers Association</title>
 </head>
 <body>
   <main class="siteContainer">
 
-    <div class="hidden">beginning of header</div>
+    <h1 class="hidden">Header</h1>
     <header id="mainHeader">
       <!--Beginning of Logo-->
       <div id="logo">
@@ -22,19 +23,36 @@
       </div>
 
       <nav id="mainNav"><!--beginning of mainNav-->
-        <ul>
+        <button id="button"></button>
+        <h2 class="hidden">header nav</h2>
+
+      <div id="burgerCon">
+        <ul id="burgerMenu">
           <li><a href="index.html">HOME</a></li>
-          <li><a href="">ABOUT</a></li>
+          <li><a href="about.html">ABOUT</a></li>
           <li><a href="contact.html">CONTACT</a></li>
           <li><a href="project.html">PROJECTS</a></li>
-          <li><a href="">NEWSLETTER</a></li>
-          <li><a href="">RESOURCES</a></li>
+          <li><a href="newsletter.html">NEWSLETTER</a></li>
+          <li><a href="resources.html">RESOURCES</a></li>
+        </ul>
+      </div>
+
+        <nav id="nav">
+          <ul id="navMenu">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+          <li><a href="project.html">PROJECTS</a></li>
+          <li><a href="newsletter.html">NEWSLETTER</a></li>
+          <li><a href="resources.html">RESOURCES</a></li>
           </ul>
+        </nav>
+
       </nav><!--end mainNav-->
 
     </header>
 
-    <div class="hidden">hero-header</div>
+    <h2 class="hidden">hero-header</h2>
     <div id="hero1">
 
     <div class="heroText1">
@@ -48,22 +66,26 @@
 
     </div>
 
-    <div class="hidden">projects</div>
+    <h1 class="hidden">projects</h1>
     <div id="trout">
+      <div id="troutText">
         <h3>Trout Hatchery</h3>
-        <div id="border1"></div>
-        <img src="images/California_Tray_System.jpg" alt="tray system picture">
+        <div class="border"></div>
+        <img src="images/California_Tray_System.jpg" class="pImg" alt="tray system picture">
         <p>The TRAA Trout Hatchery began in the mid-1980's as an outdoor upwelling box located adjacent to Komoka Creek on private property. While it was a simple and rustic affair, the TRAA enjoyed incredible egg hatching and fry survivability rates for several seasons.<br><br>
         While this setup served us well it was also very challenging to maintain. We had to pack the upwelling box with straw bales (see picture above right) to keep the water in the cells from freezing. Members of the Trout Hatchery Rotation had to huddle over each cell picking eggs in wind-driven rain, sleet and snow. Something had to be done so a new setup was housed in a new enclosure.<br><br>
         This facility consisted of a hatching trough with trays, a stainless steel fry box and a 6-foot diameter growth tank.<br><br>
         Always looking to improve, the TRAA Tout Committee began looking at ways to emulate the success we had with the upwelling box when it was outside. To that end we had a new one constructed by the carpentry class at H.B. Beal Secondary School and they did a great job!</p>
+      </div>
+        <img src="images/California_Tray_System.jpg" class="pImage" alt="tray system picture">
     </div>
 
     <div id="salmonid">
-      <img src="images/measuring_fish.jpg" alt="fish measuring picture">
+      <img src="images/measuring_fish.jpg" class="pImage" alt="fish measuring picture">
       <div id="salmonidText">
       <h3>Salmonid Monitoring Spring 2012</h3>
-      <div id="border"></div>
+      <div class="border"></div>
+      <img src="images/measuring_fish.jpg" class="pImg" alt="fish measuring picture">
       <p>Here's an overview of what happened over a few weekends in the
       Spring of 2012 when TRAA members and personnel from the Upper
       Thames River Conservation Authority (UTRCA) waded in for Year 3
@@ -78,85 +100,93 @@
 
     <div class="pArch">
       <h3>Project Archives</h3>
-      <div id="border1"></div>
+      <div class="border1"></div>
     </div>
 
 
     <div id="stream">
       <div id="streamText">
       <h3>Stream Rehabilitation</h3>
-      <div id="border"></div>
+      <div class="border"></div>
+      <img src="images/stream.jpg" class="pImg" alt="stream rehabilitation picture">
       <p>The TRAA trout hatchery is fun and educational but the TRAA is not about stocking fish for a "put & take" style of fishery.<br><br>
       We understand the connection between a healthy aquatic ecosystem and the sustainability of a naturally reproducing fish population, regardless of the species.<br><br>
       The work parties and the work involved at each event vary greatly. Some are very technical, some are just hard slugging and others are a good blend of both.<br><br>
       There are lots of different jobs at each event requiring an array of strengths and capabilities. In other words, everyone is welcome to join in on the fun; whether your young or old, a lightweight or a bull, everyone has a place and a job at a TRAA stream rehabilitation work party! </p>
             </div>
-      <img src="images/stream.jpg" alt="stream rehabilitation picture">
+      <img src="images/stream.jpg" class="pImage" alt="stream rehabilitation picture">
     </div>
 
     <div id="walleye">
-      <img src="images/walleye_hatchery.jpg" alt="hatchery image">
+      <img src="images/walleye_hatchery.jpg" class="pImage"  alt="hatchery image">
       <div id="wallText">
       <h3>Walleye Hatchery</h3>
-      <div id="border"></div>
+      <div class="border"></div>
+      <img src="images/walleye_hatchery.jpg" class="pImg" alt="hatchery image">
       <p>The TRAA and the Upper Thames River Conservation Authority (UTRCA), with the blessing of the Ministry of Natural Resources (MNR), agreed to the operation of a walleye hatchery in Fanshawe Conservation Area, just north-east of London, Ontario. <br><br>While this was a relatively short-lived initiative, it was very popular with members and the community at large. Many would conclude it was also very successful considering the exciting fishery that developed closely thereafter.<br><br>The Lake Erie Management Unit (LEMU) forced the TRAA to shut down the walleye hatchery after only three seasons of operation. The LEMU's decision was dubiously based on an American study, that the Thames River walleye were genetically unique from the Grand River walleye (the TRAA's source for eggs).</p>
       </div>
     </div>
 
+    <h1 class="hidden"> Past Events</h1>
     <div class="pastEvents">
       <h3>Past Events</h3>
-      <div id="border1"></div>
+      <div class="border1"></div>
     </div>
 
-    <div id="right">
-      <img src="images/release.jpg" alt="trout release image">
-      <div id="rightText">
+    <div class="right">
+      <img src="images/release.jpg" class="pImage" alt="trout release image">
+      <div class="rightText">
       <h3>Brown Trout Release</h3>
-      <div id="border"></div>
+      <div class="border"></div>
+      <img src="images/release.jpg" class="pImg" alt="trout release image">
       <p>The brown trout were transferred from the TRAA hatchery and released at the same site on Medway Creek as in previous years.<br><br>
       TRAA members loaded up the trout fry into the transfer tank at the hatchery site. We then proceeded to the release site north of London, Ontario.<br><br>
       We were met there by two of the landowners through which this section of Medway Creek flows. They also brought out a large contingent of family and friends to lend a helping hand.</p>
     </div>
     </div>
 
-    <div id="left">
-      <div id="leftText">
+    <div class="left">
+      <div class="leftText">
       <h3>River Cleanup!</h3>
-      <div id="border"></div>
+      <div class="border"></div>
+      <img src="images/release.jpg" class="pImg" alt="trout release image">
       <p>The TRAA be helped out again this year with a cleanup of the shoreline and area of the river near the Komoka Road bridge.<br><Br>
       After meeting at the NEW parking lot for Komoka Provincial Park on Gideon Drive, everyone carpooled to the usual stretch around the bridge.<br><br>
       Thank you to all that showed up to help out!</p>
     </div>
-    <img src="images/people_fish.jpg" alt="cleaning river">
+    <img src="images/people_fish.jpg" class="pImage" alt="cleaning river">
     </div>
 
-    <div id="right">
-      <img src="images/medway_creek.jpg" alt="medway creek image">
-      <div id="rightText">
+    <div class="right">
+      <img src="images/medway_creek.jpg" class="pImage" alt="medway creek image">
+      <div class="rightText">
       <h3>Medway Creek Habitat Project</h3>
-      <div id="border"></div>
+      <div class="border"></div>
+      <img src="images/medway_creek.jpg" class="pImg" alt="medway creek image">
       <p>Those of you who have been involved with the brown trout releases over the past few years may recognize this spot on Medway Creek as the release point.<br><br>
       Those of you who have been attending the last few General Meetings will also know that this is part of a 280-metre stretch on which we will be focusing future habitat rehabilitation efforts.<br><br>
       We have met with and have the support of the two landowners through which this stretch of Medway Creek flows.</p>
     </div>
     </div>
 
-    <div id="left">
-      <div id="leftText">
+    <div class="left">
+      <div class="leftText">
       <h3>Rod Building - Your First Time</h3>
-      <div id="border"></div>
+      <div class="border"></div>
+      <img src="images/rod_building.jpg" class="pImg" alt="building rod">
       <p>This was a series of informal, hands-on sessions that resulted in a spinning or fly rod, assembled and finished by those who took part.<br><Br>
       This opportunity was open only to current members of the TRAA, WOFGPA and/or FCFFC.<br><br>
       fly guides"Rod Building - Your First Time" was presented by: Thames River Anglers Association, with support from the Western Ontario Fish & Game Protective Ass’n and the Forest City Fly Fishing Club.</p>
     </div>
-    <img src="images/rod_building.jpg" alt="building rod">
+    <img src="images/rod_building.jpg" class="pImage" alt="building rod">
     </div>
 
-    <div id="right">
-      <img src="images/work_party.jpg" alt="stream habitat image">
-      <div id="rightText">
+    <div class="right">
+      <img src="images/work_party.jpg" class="pImage" alt="stream habitat image">
+      <div class="rightText">
       <h3>Stream Habitat Work Party</h3>
-      <div id="border"></div>
+      <div class="border"></div>
+      <img src="images/work_party.jpg" class="pImg" alt="stream habitat image">
       <p>A few TRAA members cleared a number of fallen trees and other blockages on October 13th.<br><br>
       Dan Shinkelshoek made a video of the proceedings and it's worth a look so click on the picture to view.<br><br>
       If you have further questions about TRAA stream habitat projects and events, please come out to the TRAA General Meeting on Wednesday, November 14th or contact us.</p>
@@ -167,24 +197,30 @@
       <a href="">VIEW MORE..</a>
     </div>
 
-    <div class="hidden">local supporters</div>
+    <h1 class="hidden">local supporters</h1>
     <div id="supporters">
 
     <div id="supportersTitle">
-      <h3>LOCAL SUPPORTERS</h3>
+      <h3>Local Supporters</h3>
     </div>
 
     <div id="supportersLogo">
-      <img src="images/muma.svg" alt="muma logo">
-      <img src="images/recycling.svg" alt="try recycling logo">
-      <img src="images/angling.svg" alt="angling logo" width="100px" height="100px">
-      <img src="images/guillevin.svg" alt="guillevin logo">
-      <img src="images/melchers.svg" alt="melchers logo" width="50px" height="50px">
+      <div class="slogo">
+      <img src="images/muma.svg" alt="muma logo" width="100px" height="100px">
+      <img src="images/recycling.svg" alt="try recycling logo" width="100px" height="100px">
+      </div>
+
+      <img src="images/angling.svg" alt="angling logo" width="100px" height="100px" id="angling">
+
+      <div class="slogo">
+      <img src="images/guillevin.svg" alt="guillevin logo" width="100px" height="100px">
+      <img src="images/melchers.svg" alt="melchers logo" width="100px" height="100px">
+      </div>
     </div>
 
     </div>
 
-    <div class="hidden">buttons at footer</div>
+    <h1 class="hidden">buttons at footer</h1>
     <div id="Button">
       <div id="bottomBut">
         <a href="">MEMBERSHIPS</a>
@@ -192,7 +228,7 @@
       </div>
     </div>
 
-    <div class="hidden">main footer</div>
+    <h1 class="hidden">main footer</h1>
     <footer class="mainFooter">
 
       <div class="LogoNav">
@@ -228,11 +264,11 @@
         <h2 class="hidden">Footer navigation</h2>
           <ul>
             <li><a href="index.html">HOME</a></li>
-            <li><a href="">ABOUT</a></li>
+            <li><a href="about.html">ABOUT</a></li>
             <li><a href="contact.html">CONTACT</a></li>
             <li><a href="project.html">PROJECTS</a></li>
-            <li><a href="">NEWSLETTER</a></li>
-            <li><a href="">RESOURCES</a></li>
+            <li><a href="newsletter.html">NEWSLETTER</a></li>
+            <li><a href="resources.html">RESOURCES</a></li>
             </ul>
       </nav>
     </div>
@@ -253,7 +289,7 @@
 
 
         <div id="copyright">
-          <p>&copy 2019 Thames River Anglers Association</p>
+          <p>&copy; 2019 Thames River Anglers Association</p>
         </div>
       </div>
   </footer>
