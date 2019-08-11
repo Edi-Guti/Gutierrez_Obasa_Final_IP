@@ -1,28 +1,48 @@
-# Thames River Anglers Association Midterm
+# Thames River Anglers Association
 
-----
+To make a full 6 page responsive website for mobile, tablet and desktop. 
 
-# Authors:
+## Description
 
-## Ife
+The Thames River Anglers Association is a fully responsive website for volunteers, members and anyone willing to join and experience an eco friendly, non-profit organization that helps to preserve wild life. The website is to keep you informed of events, projects and monthly newsletters with fully functional navigation bars and links to different sources on each page.  
 
-### Symantic Tagging
+## Getting Started
 
-- HTML
-- CSS
-- Java
+### Dependencies
 
-### Photoshop
+Any desktop, iPad/Tablet, or mobile phone can be used to visit the website/app and its contents.
 
-- Wireframe
-- Design
+### Installing
 
-## Edi
+Simply download the app to your mobile phone and use the links to transition from one page to another.
 
-### Photoshop
+### Executing program
 
-- Design
-- Wireframe
-- Invision
-- Mock-up and Mechandise
-- Updating Readme
+* Type in the URL in the browser
+
+* Browse the links on the pages
+
+* Click on the navigation bar to move through each web page
+
+## Help
+
+If you want to get in touch with someone or if there are any concerns, just email traa@anglers.org or follow on Facebook. 
+
+## Authors
+
+Ife Obasa 
+[@IfeObasa](https://www.fanshaweonline.ca)
+
+Edi Gutierrez
+[@EdiGutierrez](https://www.fanshaweonline.ca/d2l/lp/profile/profile_edit.d2l?ou=947337)
+
+## License
+
+This project is licensed under the [THAMES RIVER ANGLERS ASSOCIATION] License - see the LICENSE.md file for details
+
+## Acknowledgments
+
+Inspiration, code snippets, etc.
+* [github](https://github.com/matiassingers/awesome-readme)
+* [Fanshaweonline](https://www.fanshaweonline.ca/d2l/home/947337)
+* [readme](https://gist.githubusercontent.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc/raw/d59043abbb123089ad6602aba571121b71d91d7f/README-Template.md)
